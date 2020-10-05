@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+    <script src="fov.js"></script>
+    <script>
+        let move = (dx, dy) => {
+            x += dx;
+            y += dy;
+            update(4);
+            print();
+        }
+    </script>
+    <button onclick="move(-1, 0)"> UP </button>
+    <button onclick="move(0, -1)"> LEFT </button>
+    <button onclick="move(0, 1)"> RIGHT </button>
+    <button onclick="move(1, 0)"> DOWN </button>
+
+</html>
